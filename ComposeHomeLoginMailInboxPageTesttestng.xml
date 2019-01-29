@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Yahoo Mail Regression test Suite for Test classes: ComposePageTest, HomePageTest, LoginPageTest, MailInboxPageTest">
+<listeners>
+<listener class-name="testUtils.ExtentReporterNG"/>
+</listeners>
+	<test name="Yahoo Mail Test">
+		<classes>
+			<class name="com.YahooTestBBS.Tests.ComposePageTest" />
+			<class name="com.YahooTestBBS.Tests.HomePageTest" />
+			<class name="com.YahooTestBBS.Tests.LoginPageTest" />
+			<class name="com.YahooTestBBS.Tests.MailInboxPageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,4 @@
+com\YahooTestBBS\Tests\HomePageTest.class
+com\YahooTestBBS\Tests\LoginPageTest.class
+com\YahooTestBBS\Tests\ComposePageTest.class
+com\YahooTestBBS\Tests\MailInboxPageTest.class

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Yahoo Mail Regression test Suite for Test classes: ComposePageTest, HomePageTest, LoginPageTest, MailInboxPageTest" duration-ms="352722" started-at="2019-01-24T17:01:23Z" finished-at="2019-01-24T17:07:15Z">
+    <groups>
+    </groups>
+    <test name="Yahoo Mail Test" duration-ms="352722" started-at="2019-01-24T17:01:23Z" finished-at="2019-01-24T17:07:15Z">
+      <class name="com.YahooTestBBS.Tests.ComposePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.YahooTestBBS.Tests.ComposePageTest@204f30ec]" name="setUp" is-config="true" duration-ms="111812" started-at="2019-01-24T17:01:31Z" finished-at="2019-01-24T17:03:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMailSend(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.YahooTestBBS.Tests.ComposePageTest@204f30ec]" name="verifyMailSend" duration-ms="3780" started-at="2019-01-24T17:03:23Z" data-provider="dp" finished-at="2019-01-24T17:03:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ttestb@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SubjectAAA]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mail Body of Subject AAA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMailSend -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.YahooTestBBS.Tests.ComposePageTest@204f30ec]" name="tearDown" is-config="true" duration-ms="536" started-at="2019-01-24T17:03:26Z" finished-at="2019-01-24T17:03:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.YahooTestBBS.Tests.ComposePageTest@204f30ec]" name="setUp" is-config="true" duration-ms="63737" started-at="2019-01-24T17:03:27Z" finished-at="2019-01-24T17:04:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMailSend(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.YahooTestBBS.Tests.ComposePageTest@204f30ec]" name="verifyMailSend" duration-ms="4545" started-at="2019-01-24T17:04:31Z" data-provider="dp" finished-at="2019-01-24T17:04:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ttestb@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SubjectBBB]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mail Body of Subject BBB]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMailSend -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.YahooTestBBS.Tests.ComposePageTest@204f30ec]" name="tearDown" is-config="true" duration-ms="252" started-at="2019-01-24T17:04:35Z" finished-at="2019-01-24T17:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.YahooTestBBS.Tests.ComposePageTest@204f30ec]" name="setUp" is-config="true" duration-ms="74208" started-at="2019-01-24T17:04:36Z" finished-at="2019-01-24T17:05:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMailSend(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.YahooTestBBS.Tests.ComposePageTest@204f30ec]" name="verifyMailSend" duration-ms="3952" started-at="2019-01-24T17:05:50Z" data-provider="dp" finished-at="2019-01-24T17:05:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ttestb@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SubjectCCC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mail Body of Subject CCC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMailSend -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.YahooTestBBS.Tests.ComposePageTest@204f30ec]" name="tearDown" is-config="true" duration-ms="1388" started-at="2019-01-24T17:05:54Z" finished-at="2019-01-24T17:05:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.YahooTestBBS.Tests.ComposePageTest@204f30ec]" name="setUp" is-config="true" duration-ms="69361" started-at="2019-01-24T17:05:55Z" finished-at="2019-01-24T17:07:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyMailSend(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.YahooTestBBS.Tests.ComposePageTest@204f30ec]" name="verifyMailSend" duration-ms="10628" started-at="2019-01-24T17:07:04Z" data-provider="dp" finished-at="2019-01-24T17:07:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ttestb@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SubjectDDD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mail Body of Subject DDD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMailSend -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.YahooTestBBS.Tests.ComposePageTest@204f30ec]" name="tearDown" is-config="true" duration-ms="284" started-at="2019-01-24T17:07:15Z" finished-at="2019-01-24T17:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.YahooTestBBS.Tests.ComposePageTest -->
+    </test> <!-- Yahoo Mail Test -->
+  </suite> <!-- Yahoo Mail Regression test Suite for Test classes: ComposePageTest, HomePageTest, LoginPageTest, MailInboxPageTest -->
+</testng-results>

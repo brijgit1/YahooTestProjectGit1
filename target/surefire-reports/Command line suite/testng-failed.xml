@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.YahooTestBBS.Tests.MailInboxPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyNavigateToMail"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.YahooTestBBS.Tests.MailInboxPageTest -->
+      <class name="com.YahooTestBBS.Tests.ComposePageTest">
+        <methods>
+          <include name="verifyMailSend"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.YahooTestBBS.Tests.ComposePageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
